@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+span {
+    color: #B983FF;
+}
+
+.container{
+    width: 970px;
+    margin: auto;   
+    margin-top: 35px;
+}
+
+navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    margin-left: 24px;
+}
+
+.btn .btn-1 {
+    width: 120px;
+    height: 40px;
+    background-color: #B983FF;
+    border: none;
+    border-radius: 24px;
+    border: 1px solid #B983FF;
+}
+
+.btn .btn-1 a {
+    color: white;
+}
+
+.btn .btn-1 a:hover {
+    color: #B983FF;
+}
+
+.btn button {
+    width: 120px;
+    height: 40px;
+    background-color: #B983FF;
+    border: none;
+    border-radius: 24px;
+    border: 1px solid #B983FF;
+}
+
+.btn .btn-1:hover {
+    border: 1px solid #B983FF;
+    transform: rotate(2deg);
+    background-color: white;
+}
+
+.btn .btn-2 a{
+    color: #B983FF;
+}
+.btn .btn-2 a:hover{
+    color: white;
+}
+.btn .btn-2{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border-radius: 24px;
+    border: 1px solid #B983FF;
+}
+
+.btn .btn-2:hover{
+    background-color: #B983FF;
+    transform: rotate(2deg);
+
+}
+
+.btn button a {
+    text-decoration: none;
+    color: white;
+}
+
+.beranda {
+    height: 100vh;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.col-1 h1{
+    font-size: 42px;
+    color: #251B37;
+    margin-bottom: 30px;
+}
+
+.col-1 p{
+    font-size: 18px;
+    color: #251B37;
+    margin-bottom: 18px;
+}
+
+.btn-beranda button {
+    width: 130px;
+    height: 40px;
+    background-color: #B983FF;
+    border: none;
+    border-radius: 24px;
+}
+
+.btn-beranda button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#destinasi{
+    height: 100vh;
+    margin-top: 60px;
+}
+
+.title-destinasi h2{
+    font-size: 38px;
+    text-align: center;
+    padding-top: 60px;
+    color:white;
+}
+
+.title-destinasi p{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+.container-fluid{
+    background-color: #B983FF;
+}
+.all-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-destinasi {
+    width: 200px;
+    height: auto;
+    background-color: white;
+    margin-top: 60px;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+
+}
+
+.title-detail{
+    padding: 8px;
+}
+
+
+.btn-card  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+}
+
+.btn-card-detail {
+    width: 130px;
+    height: 40px;
+    padding: 4px;
+    background-color: #B983FF;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-card-detail a {
+   text-decoration: none;
+   color: white;
+}
+
+#fitur {
+    height: 100vh;
+    margin-top: 60px;
+
+}
+
+#fitur h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.all-card-fitur {
+    margin-top: 10px;
+}
+.row-fitur{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col-22 {
+    padding-left: 90px;
+    color: #3f3d55;
+}
+
+.card-fitur {
+    width: 300px;
+    height: 80px;
+    margin-top: 10px;
+}
+.card-flex{
+    display: flex;
+    align-items: center;
+    color: #3f3d55;
+    justify-content: center;
+}
+
+#sponsor  {
+    height: 100vh;
+}
+
+.sponsor h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+img.tengah {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tentang{
+    height: 100vh;
+}
+
+#tentang h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#tentang article {
+   text-align: center;
+}
+
+.all-card-tentang {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.card-visi {
+    border: 2px solid #B983FF;
+    padding: 8px;
+}
+
+
+.visi h3{
+    margin-bottom: 5px;
+}
+
+.img-visi{
+    padding: 10px 90px;
+}
+
+.card-misi {
+    border: 2px solid #B983FF;
+    padding: 8px;
+    margin-left: 14px
+}
+
+
+.misi h3{
+    margin-bottom: 5px;
+}
+
+.img-misi{
+    padding: 10px 90px;
+}
+
+.row-aside {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#biografi {
+    padding: 70px;
+    color: white;
+}
+
+#biografi h3 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.btn-tentang {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #B983FF;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+}
+
+/* footer */
+.all-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-footer h4{
+        margin-bottom: 8px;
+}
+
+.mitra-kami h4{
+        margin-bottom: 8px;
+}
+
+.alamat h4{
+        margin-bottom: 8px;
+}
+
+
+.logo-sosial-media{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-footer{
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+/* end footer */
